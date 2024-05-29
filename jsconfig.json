@@ -6,9 +6,9 @@
     "compilerOptions": {
         // Tells the compiler to check JS files
         "checkJs": true,
-        "target": "esnext",
+        "target": "ES6",
         "module": "commonjs",
-        "moduleResolution": "nodenext"
+        "moduleResolution": "node"
     },
     "typeAcquisition": {
         "include": [

@@ -26,14 +26,14 @@ export default {
     },
     plugins: [
         // Copy .wasm files to dist folder
-        new CopyWebpackPlugin({
-            patterns: [
-                {
-                    from: 'node_modules/onnxruntime-web/dist/*.wasm',
-                    to: 'dist/[name][ext]'
-                },
-            ],
-        }),
+        // new CopyWebpackPlugin({
+        //     patterns: [
+        //         {
+        //             from: 'node_modules/onnxruntime-node/dist/*.wasm',
+        //             to: 'dist/[name][ext]'
+        //         },
+        //     ],
+        // }),
     ],
     optimization: {
         minimize: true,
